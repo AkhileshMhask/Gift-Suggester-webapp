@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    int j=0;
+</script>
+{% for i in product %}
+  <script>document.write(j);j++</script>
+  {{ i.name }}<br>
+{% endfor %}
+</body>
+</html>
